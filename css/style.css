@@ -1,0 +1,197 @@
+body {
+    font-family: 'Ubuntu', Arial, sans-serif;
+    color: #333;
+    line-height: 20px;
+/*        font-family: "Helvetica Neue", "Helvetica", Arial,sans-serif;*/
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 20px;
+}
+
+.test {
+    width: 20px;
+    height: 500px;
+    background-color: orange;
+}
+
+.site-footer {
+    background-color: #182740;
+    color: #fff;
+    font-size: 12px;
+}
+
+.site-footer a {
+    color: #fff;
+}
+
+input[type="text"].my-input {
+    background-color: #fff;
+    padding: 0 10px;
+    border-bottom: none;
+    color: #222;
+    box-sizing: border-box;
+}
+
+input[type="text"].my-input:focus {
+    border-bottom: none;
+    box-shadow: none;
+}
+
+input[type="text"].my-input {
+    content: "Go";
+}
+
+.go {
+    background-color: orange;
+    font-weight: bold;
+    border: none;
+    position: absolute;
+    right: 2px;
+    top: 5px;
+    padding: 6px;
+}
+
+div.input {
+    position: relative;
+}
+
+button.go:focus, button.header-right:focus
+button.adv:focus, button.utp:focus {
+    background-color: orange;
+}
+
+.my-ads {
+    min-height: 210px;
+    background-color: #0D3F96;
+}
+
+.zilla {
+    height: 220px;
+    background-image: url(../img/coinzilla-join-us.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.footer-ablock {
+    position: relative;
+    margin-bottom: -15%;
+    bottom: 150px;
+}
+
+.main-art h2 {
+    margin-bottom: 5px;
+}
+
+.main-art p {
+    margin: 3px 0;
+}
+
+h1 {
+    font-size: 34px;
+    text-align: center;
+}
+
+.adv {
+    display: inline-block;
+    background-color: orange;
+    font-weight: bold;
+    border: none;
+    position: absolute;
+    top: 150px;
+    left: 9%;
+    padding: 10px 30px;
+}
+
+.butt {
+    margin: 0 auto;
+}
+
+.icon {
+    width: 7%;
+    margin: -1.5% 3%;
+}
+
+.utp {
+    background-color: #182740;
+    padding: 40px 0;
+}
+
+.hello-zilla {
+    background-image: url(../img/coinzilla-hello.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 10% 50%;
+}
+
+.my-utp {
+    padding: 30px 0;
+}
+
+.mb100 {
+    margin-bottom: -100px;
+}
+
+header {
+    background-color: #182740;
+    padding: 10px 0;
+    color: #fff;
+}
+
+.logo {
+    width: 115px;
+}
+
+.main-nav li {
+    float: left;
+    padding-right: 30px;
+    padding-left: 0;
+}
+
+.main-nav {
+    margin: 0;
+}
+
+@media screen and (max-width: 600px) {
+    /*    background-image: none;*/
+    .hello-zilla {
+        background-image: none;
+    }
+}
+button {
+    background-color: orange;
+    font-weight: bold;
+    border: none;
+    right: 2px;
+    top: 5px;
+    padding: 6px;
+    color: white;
+    margin: 10px;
+}
+
+.utp1 a {
+    color: orange;
+}
+
+span a, button a  {
+    color: white;
+    text-decoration: none;
+}
+
+
+.header-left li {
+    margin: 10px;
+}
+
+.center-align {
+    padding-top: 30px;
+}
+
+.buy {
+    padding: 10px 50px;
+}
+
+.start {
+    border: 1px solid orange;
+}
